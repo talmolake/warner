@@ -226,7 +226,7 @@
 				<h1 style="color: #fff; font-size: 60px;">TV Shows</h1>
 				
 				<form action="/search" method="get">
-					<input type="text" placeholder="find shows..." name="q">
+					<input type="text" placeholder="find shows..." name="q"required>
 					<button type="submit">Search</button>
 				</form>
 
@@ -239,7 +239,7 @@
 					  <li><a href="movies.html">Movies</a></li>
 					  <li><a href="#">TVshows</a></li>
 					  <li><a href="games.html">Games</a></li>
-					  <li><a href="#">Feedback</a></li>
+					  <li><a href="formAction.html">Feedback</a></li>
 					</ul>  
 					 </li>
 				</nav>
@@ -254,7 +254,7 @@
   const figures = movieList.querySelectorAll('figure');
   const figureCount = figures.length;
   const figureWidth = figures[0].offsetWidth;
-  const gap = 20; // Adjust this value to set the desired gap between figures
+  const gap = 20; //set the desired gap between figures
 
   // Clone figures to create a continuous loop
   figures.forEach((figure) => {

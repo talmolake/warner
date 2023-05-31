@@ -1,0 +1,206 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+  <style>
+			body{
+				height:1000px
+			}
+			.logo img {
+			  width: 50px;
+			}
+
+			header {
+			  background-color: #333;
+			  padding: 20px;
+			}
+			.logo img {
+			  width: 50px;
+			}
+
+			
+			nav ul {
+				list-style: none;
+				margin: 0;
+				padding: 10px;
+			}
+
+			nav ul li {
+				display: inline-block;
+				position: relative;
+			}
+
+			nav ul li a {
+				display: block;
+				padding: 10px 20px;
+				text-decoration: none;
+				color: #333;
+				background-color: #FEC5EA;
+			}
+
+			nav ul li:hover > a {
+				background-color:#FC74FD ;
+			}
+
+			nav ul li:hover .submenu {
+				display: block;
+			}
+
+			nav ul .submenu {
+				display: none;
+				position: absolute;
+				top: 100%;
+				left: 0;
+				min-width: 200px;
+				z-index: 1;
+				background-color: #f1f1f1;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			}
+
+			nav ul .submenu li {
+				display: block;
+			}
+
+			nav ul .submenu li a {
+				padding: 10px 20px;
+				color: #333;
+				text-decoration: none;
+			}
+
+			nav ul .submenu li a:hover {
+				background-color: #FC74FD;
+			}
+
+			  form {
+				max-width: 400px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #f2f2f2;
+				border-radius: 5px;
+			  }
+
+			  label {
+				display: block;
+				margin-bottom: 5px;
+				font-weight: bold;
+			  }
+
+			  input[type="text"],
+			  input[type="email"],
+			  textarea {
+				width: 100%;
+				padding: 8px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				margin-bottom: 10px;
+			  }
+
+			  input[type="submit"] {
+				background-color: #4caf50;
+				color: #fff;
+				padding: 10px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			  }
+
+			  input[type="submit"]:hover {
+				background-color: #45a049;
+			  }
+			  
+			footer {
+			  background-color: #f2f2f2;
+			  padding: 20px;
+			}
+
+			.footer-content {
+			  display: flex;
+			  justify-content: space-between;
+			  align-items: flex-start;
+			  flex-wrap: wrap;
+			}
+
+			.footer-links ul {
+			  list-style: none;
+			  padding: 0;
+			}
+
+			.footer-links li {
+			  margin-bottom: 10px;
+			}
+
+			.footer-links a {
+			  text-decoration: none;
+			  color: #333;
+			}
+
+			.footer-info h3 {
+			  margin-top: 0;
+			}
+
+			.footer-info p {
+			  margin-bottom: 5px;
+			}
+
+			.footer-bottom {
+			  text-align: center;
+			  margin-top: 20px;
+			}
+
+			.footer-bottom p {
+			  margin-bottom: 0;
+			}
+</style>
+
+</style>
+</head>
+</head>
+	
+		<body>
+			<header style="padding-bottom: 65px;">
+				<div class="logo">
+				<a href="index.html">
+					<img src="img\warnerbroslogo.png" alt="Warner Bros.">
+				</a>
+				
+				<nav>
+					<ul>
+					  <li>
+					   <a href="#">Menu</a>
+					  <ul class="submenu">
+					  <li><a href="index.html">Home</a></li>
+					  <li><a href="movies.html">Movies</a></li>
+					  <li><a href="tvshows.html">TVshows</a></li>
+					  <li><a href="games.html">Games</a></li>
+					  <li><a href="#">Feedback</a></li>
+					</ul>  
+					 </li>
+				</nav>
+<body>
+		<form action="submit-feedback.php" method="post">
+			  <label for="name">Name:</label>
+			  <input type="text" id="name" name="name" required>
+
+			  <label for="email">Email:</label>
+			  <input type="email" id="email" name="email" required>
+
+			  <label for="message">Message:</label>
+			  <textarea id="message" name="message" required></textarea>
+
+			  <input type="submit" value="Submit">
+		</form>
+		<footer>
+					 <div class="footer-info">
+						  <h3>Warner Bros.</h3>
+						  <p>123 Warner Blvd, Hollywood, CA 90069</p>
+						  <p>Email: <a href="mailto: info@warnerbros.com">info@warnerbros.com</a></p>
+						  <p>Phone: 123-456-7890</p>
+						</div>
+					  </div>
+					  <div class="footer-bottom">
+		   
+					<p>Copyright &copy; 2023. All rights reserved.</p>
+		</footer>
+</body>
+</html>
