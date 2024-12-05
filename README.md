@@ -1,7 +1,7 @@
 <h1>Warner Bros Imitation Website</h1>
 
 <h2>Description</h2>
-This is the front end development section of a website that users can use to browse movies, shows and games from Warner Bros Co. <br />
+This is the front end project of a website that users can use to browse movies, shows and games from Warner Bros Co. <br />
 
 
 <h2>Languages Used</h2>
